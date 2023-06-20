@@ -26,10 +26,10 @@
 static const char *TAG = "HTTP_CLIENT";
 
 //Initialize info for message
-char account_sid[] = "AC9957b35538c35d162207516b86807962";
-char auth_token[] = "0332eacf0b9dd52973bd65303a3cfc96";
-char recipient_num[] = "+16784354993";
-char sender_num[] = "+18449924131";
+char account_sid[] = "PLACEHOLDER";
+char auth_token[] = "PLACEHOLDER";
+char recipient_num[] = "PLACEHOLDER";
+char sender_num[] = "PLACEHOLDER";
 
 char message_open[] = "Bedroom: Door opened";
 char message_close[] = "Bedroom: Door closed";
@@ -159,8 +159,8 @@ void twilio_send_sms_close(void *pvParameters)
 
 /* WIFI */
 
-#define EXAMPLE_ESP_WIFI_SSID      "Haven210"
-#define EXAMPLE_ESP_WIFI_PASS      "Mgirl210"
+#define EXAMPLE_ESP_WIFI_SSID      "PLACEHOLDER"
+#define EXAMPLE_ESP_WIFI_PASS      "PLACEHOLDER"
 #define EXAMPLE_ESP_MAXIMUM_RETRY  10
 
 #if CONFIG_ESP_WPA3_SAE_PWE_HUNT_AND_PECK
