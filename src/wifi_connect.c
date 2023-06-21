@@ -1,7 +1,7 @@
 #include "wifi_connect.h"
 
-#define EXAMPLE_ESP_WIFI_SSID      "Haven210"
-#define EXAMPLE_ESP_WIFI_PASS      "Mgirl210"
+#define EXAMPLE_ESP_WIFI_SSID      "PLACEHOLDER"
+#define EXAMPLE_ESP_WIFI_PASS      "PLACEHOLDER"
 #define EXAMPLE_ESP_MAXIMUM_RETRY  10
 
 static EventGroupHandle_t s_wifi_event_group;
